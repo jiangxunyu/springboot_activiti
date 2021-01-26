@@ -2,7 +2,7 @@ server:
   port: 8084
   activiti:
     database-schema-update: true
-    check-process-definitions: true
+    check-process-definitions: false
     process-definition-location-prefix: classpath:/processes/
     #    process-definition-location-suffixes:
     #      - **.bpmn
